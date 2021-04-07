@@ -53,9 +53,9 @@ export default function RecipeId({
               <h1 className="text-gray-900 text-3xl title-font font-medium mb-1 pb-3">
                 {recipe.title}
               </h1>
-              {recipe.ingredients.map((ingredient: any, index: number) => (
+              {recipe.ingredients.map((ingredient: any) => (
                 <p className="leading-relaxed">
-                  STEP{index + 1} <span className="ml-3">{ingredient}.</span>
+                  <span className="ml-3">{ingredient}.</span>
                 </p>
               ))}
               <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
