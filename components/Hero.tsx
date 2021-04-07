@@ -25,6 +25,8 @@ export default function Hero() {
         className="object-cover object-center rounded"
         alt="hero"
         src={`${images[Math.floor(Math.random() * images.length)]}`}
+        data-aos='fade-up' data-aos-duration='1500'
+        data-aos-easing='linear'
       />
     </section>
   );
